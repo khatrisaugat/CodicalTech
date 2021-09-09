@@ -109,6 +109,12 @@ $light: #eeeeee;
       }
     }
   }
+  .all-body-section{
+    position: relative;
+    width: 100%;
+    background-color: $yellow;
+    // z-index: 0.9;
+  }
   //banner style
   .banner{
       width: 100%;
@@ -132,6 +138,38 @@ $light: #eeeeee;
     }
     .container{
         margin-top: 20vh;
+    } 
+    .vector-curve{
+      width: 100%;
+      min-height: 320px;
+      background: url(../assets/images/wave.svg);
+      background-repeat: no-repeat;
+      background-size: cover;
+     background-attachment: local;
+      z-index: 0.1;
+      position: absolute;
+      bottom: -1rem;
     }
-    
   }
+  //section-card
+  .section-card{
+    min-width:320px;
+    max-width: 768px;
+    z-index: 0.8;
+    padding: 5rem 3rem;
+    box-shadow: 14px 25px 62px 21px rgba(0,0,0,0.8);
+    -webkit-box-shadow: 14px 25px 62px 21px rgba(0,0,0,0.8);
+    -moz-box-shadow: 14px 25px 62px 21px rgba(0,0,0,0.8);
+// border: 1px groove $dark;
+    border-radius: 50px;
+    margin-top: -1rem;
+    min-height: 320px;
+    position: relative;
+    top:-2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: $light;
+  }
+  
