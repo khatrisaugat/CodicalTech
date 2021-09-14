@@ -1,4 +1,5 @@
 import CardImage from '../assets/images/lock-design.png';
+import Button from './Button';
 function ProjectCard(props) {
     return (
         <div className={props.float === "right" ? "project-card project-card-right" : "project-card"} style={{ backgroundColor: props.backgroundColor, color: props.color }}>
@@ -9,7 +10,7 @@ function ProjectCard(props) {
                 <img src={CardImage} alt="Simple Website" width="100%" />
             </div>
             <div className="card-button">
-                <button>View</button>
+                <Button title="View" />
             </div>
         </div>
     )

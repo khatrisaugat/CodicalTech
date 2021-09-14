@@ -1,5 +1,5 @@
 import { Container } from 'react-bootstrap'
-import Section_Card from './Section_Card'
+// import Section_Card from './SectionCard'
 
 function Banner() {
     return (
