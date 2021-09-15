@@ -1,7 +1,7 @@
 const Button = (props) => {
     return (
         <>
-            <button className="Btn">
+            <button className="Btn" type={props.type ? props.type : "button"}>
                 {props.title}
             </button>
         </>

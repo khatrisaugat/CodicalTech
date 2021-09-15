@@ -73,6 +73,25 @@ $light: #eeeeee;
       top: 0;
     }
   }
+  .third-section{
+    .team-card{
+      flex-direction: column;
+      // margin-top: 5rem;
+    }
+  }
+  .member-card{
+    .Line{
+      transform: rotate(90deg);
+      top: -35%;
+      // left: 5rem;
+      height: 90vw;
+      z-index: 0.95;
+      
+    }
+    .member-image{
+      z-index: 1;
+    }
+  }
   .footer {
     padding-bottom: 1.5rem;
   }
@@ -285,7 +304,7 @@ nav {
   align-items: center;
   justify-content: space-between;
   position: relative;
-  padding-bottom: 20rem;
+  padding-bottom: 30rem;
   padding-top: 5rem;
   .project-card {
     display: flex;
@@ -333,11 +352,13 @@ nav {
   padding-top: 3rem;
   .team-card {
     display: flex;
+    flex-direction: row;
     position: relative;
     align-items: center;
-    justify-content: center;
-    flex-direction: column;
+    justify-content: space-around;
+    // flex-direction: column;
     padding: 5rem 3rem;
+    opacity: 0.95;
     // left: 5rem;
     // right: 5rem;
     width: 100%;
@@ -472,6 +493,31 @@ nav {
     align-items: center;
     justify-content: center;
   }
+
+//Member Card 
+.member-card{
+  font-family: "Nunito", sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  color: $yellow;
+  .member-image{
+    img{
+      width: 10rem;
+      height: 10rem;
+      border-radius: 50%;
+      border: 3px solid $yellow;
+    }
+  }
+  .Line{
+    position: absolute;
+    width: 4px;
+    height: 5rem;
+    background-color: $yellow;
+    top: -5rem;
+  }
+}
 
 //footer styling
 .footer {

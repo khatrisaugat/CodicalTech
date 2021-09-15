@@ -1,12 +1,30 @@
+import { Col, Container, Row } from "react-bootstrap"
+import MemberCard from "./MemberCard"
+
 function TeamCard() {
     return (
         <div className="team-card">
-            <h2>Our Team</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum eius repellendus sit assumenda consequatur quidem minus optio sed cumque unde, iusto qui nesciunt dolores dolorem laboriosam, ipsa fuga quo eos?</p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum eius repellendus sit assumenda consequatur quidem minus optio sed cumque unde, iusto qui nesciunt dolores dolorem laboriosam, ipsa fuga quo eos?</p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum eius repellendus sit assumenda consequatur quidem minus optio sed cumque unde, iusto qui nesciunt dolores dolorem laboriosam, ipsa fuga quo eos?</p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum eius repellendus sit assumenda consequatur quidem minus optio sed cumque unde, iusto qui nesciunt dolores dolorem laboriosam, ipsa fuga quo eos?</p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum eius repellendus sit assumenda consequatur quidem minus optio sed cumque unde, iusto qui nesciunt dolores dolorem laboriosam, ipsa fuga quo eos?</p>
+
+
+            <Col sm="2">
+                <MemberCard name="Saugat Khatri" description="Developer" />
+            </Col>
+            <Col sm="2">
+                <MemberCard name="Samarpan Rai" description="Developer" />
+            </Col>
+            <Col sm="2">
+                <MemberCard name="Kiran Shrestha" description="Developer" />
+            </Col>
+            <Col sm="2">
+                <MemberCard name="Dipesh Tamang" description="Developer" />
+            </Col>
+            <Col sm="2">
+                <MemberCard name="Aayush Poudel" description="Developer" />
+            </Col>
+
+
+
+
         </div>
     )
 }
