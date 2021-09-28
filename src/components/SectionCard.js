@@ -1,4 +1,5 @@
 import Form from "./Form"
+import Items from "./Items"
 function SectionCard(props) {
     // let float;
     // if (props.float === "right") {
@@ -10,7 +11,10 @@ function SectionCard(props) {
                 <div className={props.float === "right" ? "section-card section-card-right" : "section-card"} style={{ backgroundColor: props.backgroundColor, color: props.color }}>
 
                     <h2>{props.title}</h2>
-                    <p>We are a company that provide you with services of web applications and websites.We are a company that provide you with services of web applications and websites.We are a company that provide you with services of web applications and websites.We are a company that provide you with services of web applications and websites.We are a company that provide you with services of web applications and websites.</p>
+                    <Items title="Website Package" description="A simple website" />
+                    <Items title="Web App Package" description="A web app with required functionality" />
+                    <Items title="Mobile App Package" description="A mobile app with required functionality" />
+
 
 
                 </div>

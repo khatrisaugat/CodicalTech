@@ -1,4 +1,4 @@
-import { Col, Container, Row } from "react-bootstrap"
+import { Col } from "react-bootstrap"
 import MemberCard from "./MemberCard"
 
 function TeamCard() {

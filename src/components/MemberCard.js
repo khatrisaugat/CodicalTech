@@ -6,7 +6,7 @@ function MemberCard(props) {
             <div className="member-image">
                 <img src={memberImg} alt="member" width="100%" />
             </div>
-            <h3>{props.name}</h3>
+            <h4>{props.name}</h4>
             <p>{props.description}</p>
         </div>
     )

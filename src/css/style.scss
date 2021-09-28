@@ -103,6 +103,9 @@ $light: #eeeeee;
   padding: 0;
   box-sizing: border-box;
 }
+.Link{
+  text-decoration: none;
+}
 
 header {
   width: 100%;
@@ -168,6 +171,10 @@ nav {
       &:hover {
         //   background-color: $light;
         color: $yellow;
+      }
+      .logo-img{
+        margin-top: 0;
+        width: 7rem;
       }
     }
   }
@@ -274,6 +281,7 @@ nav {
   border-radius: 50px;
   // margin-top: -1rem;
   min-height: 320px;
+  max-height: 900px;
   position: relative;
   top: -1rem;
   bottom: 100%;
@@ -287,8 +295,32 @@ nav {
 }
 .section-card-right {
   right: 0;
-  top: 40%;
+  top: 550px;
   left: -5rem;
+}
+.Items{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: large;
+  font-weight: 500;
+  background-color: $dark;
+  width: 100%;
+  color: $yellow;
+  min-height: 5rem;
+  padding: 1rem 1rem;
+  margin-bottom: 1rem;
+  border-radius: 1rem;
+  box-shadow: 14px 25px 62px 21px rgba(0, 0, 0, 0.5);
+  -webkit-box-shadow: 14px 25px 62px 21px rgba(0, 0, 0, 0.5);
+  -moz-box-shadow: 14px 25px 62px 21px rgba(0, 0, 0, 0.5);
+  .Btn{
+    margin-top: 0;
+  }
+  p{
+    color: $light;
+    font-weight: 350;
+  }
 }
 
 .wave {
@@ -488,6 +520,9 @@ nav {
       }
     }
   }
+  .alertMessage{
+    display: none;
+  }
   .actions{
     display: flex;
     align-items: center;
@@ -516,6 +551,33 @@ nav {
     height: 5rem;
     background-color: $yellow;
     top: -5rem;
+  }
+}
+.packages{
+  // padding-top: 10vh;
+  min-height: 95vh;
+  // text-align: center;
+  // background-color: $yellow;
+}
+.package-section{
+  min-height: 95vh;
+  padding-top: 10vh;
+  text-align: center;
+  background-color: $dark;
+  color: $light;
+  position: relative;
+  padding-bottom: 10rem;
+  svg{
+    position: absolute;
+    bottom: 0;
+  }
+  .col-sm-3{
+    margin: 1rem 2rem;
+    background-color: $yellow;
+    color: $dark;
+    padding: 2rem 1rem;
+    border-radius: 1rem;
+    opacity: 0.95;
   }
 }
 

@@ -12,7 +12,7 @@ function Main() {
                 <Container >
                     <Row>
                         <Col sm="6" id="About" >
-                            <SectionCard title="About Us" />
+                            <SectionCard title="Packages" />
                         </Col>
                         <Col sm="6" id="Contact">
                             <SectionCard title="Contact Us" backgroundColor="#000" color="#fff" float="right" form="true" />
