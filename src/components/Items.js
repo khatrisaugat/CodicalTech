@@ -10,7 +10,7 @@ function Items(props) {
                 <h4>{props.title}</h4>
                 <p>{props.description}</p>
             </div>
-            <Link to="/packages" className="Link"><Button title="View Package" handleClick={handleClick} /></Link>
+            <Link to={"/packages/" + props.goto} className="Link"><Button title="View Package" handleClick={handleClick} /></Link>
         </div>
     )
 }

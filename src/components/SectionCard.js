@@ -11,9 +11,9 @@ function SectionCard(props) {
                 <div className={props.float === "right" ? "section-card section-card-right" : "section-card"} style={{ backgroundColor: props.backgroundColor, color: props.color }}>
 
                     <h2>{props.title}</h2>
-                    <Items title="Website Package" description="A simple website" />
-                    <Items title="Web App Package" description="A web app with required functionality" />
-                    <Items title="Mobile App Package" description="A mobile app with required functionality" />
+                    <Items title="Website Package" description="A simple website" goto="website" />
+                    <Items title="Web App Package" description="A web app with required functionality" goto="webapp" />
+                    <Items title="Mobile App Package" description="A mobile app with required functionality" goto="mobileapp" />
 
 
 
@@ -23,7 +23,7 @@ function SectionCard(props) {
     } else {
         return (
             <>
-                <div className={props.float === "right" ? "section-card section-card-right" : "section-card"} style={{ backgroundColor: props.backgroundColor, color: props.color }}>
+                <div className={props.float === "right" ? "section-card section-card-right" : "section-card"} style={{ backgroundColor: props.backgroundColor, color: props.color }} id="Contact">
 
                     <h2>{props.title}</h2>
                     <Form />
