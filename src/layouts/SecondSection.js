@@ -13,7 +13,7 @@ function SecondSection() {
                             <ProjectCard title={cur.title} image={cur.image} previewLink={cur.previewLink} />
                         </Col> :
                         <Col sm="6" key={index}>
-                            <ProjectCard title={cur.title} backgroundColor="#FFC300" color="#000" float="right" image={cur.image} />
+                            <ProjectCard title={cur.title} backgroundColor="#FFC300" color="#000" float="right" previewLink={cur.previewLink} image={cur.image} />
                         </Col>
                     )}
                 </Row>

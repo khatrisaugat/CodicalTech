@@ -13,7 +13,7 @@ function SectionCard(props) {
                     <h2>{props.title}</h2>
                     <Items title="Website Package" description="A simple website" goto="website" />
                     <Items title="Web App Package" description="A web app with required functionality" goto="webapp" />
-                    <Items title="Mobile App Package" description="A mobile app with required functionality" goto="mobileapp" />
+                    <Items title="Graphics Design Package" description="Packages for graphics creations" goto="graphics" />
 
 
 

@@ -21,7 +21,7 @@ $light: #eeeeee;
       position: fixed;
       bottom: 0;
       width: 100%;
-      margin: 10%;
+      // margin: 10%;
       margin-bottom: 0;
       background: rgba(255, 255, 255, 0.25);
       box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
@@ -33,13 +33,14 @@ $light: #eeeeee;
     .nav-list {
       padding-bottom: 0;
       margin-bottom: 0;
+      font-size: small;
       li{
         .btn-warning{
           background-color: $yellow;
           // border: 1px solid $light;
           color: $dark;
-          font-weight: 600;
-          margin: 3px 0; 
+          font-weight: 500;
+          // margin: 3px 0; 
           &:hover{
           background-color: $dark;
           color: $yellow;
@@ -49,7 +50,12 @@ $light: #eeeeee;
         }
       }
     }
+  } 
   }
+  .package-section{
+    .col-sm-3{
+      margin-right: 0;
+    }
   }
   .section-card {
     width: 100%;
@@ -93,7 +99,8 @@ $light: #eeeeee;
     }
   }
   .footer {
-    padding-bottom: 1.5rem;
+    padding-bottom: 2.5rem;
+    font-size: small;
   }
 }
 @mixin tabresp {
@@ -127,9 +134,10 @@ $light: #eeeeee;
 
 //default setup
 * {
-  margin: 0;
-  padding: 0;
+  margin: 0 0;
+  padding: 0 0;
   box-sizing: border-box;
+  // overflow-x: hidden;
 }
 .Link{
   text-decoration: none;
@@ -366,6 +374,8 @@ nav {
   position: relative;
   padding-bottom: 30rem;
   padding-top: 5rem;
+  margin-top: -0.1rem;
+  background-color: $light;
   .project-card {
     display: flex;
     position: relative;
@@ -381,6 +391,10 @@ nav {
     -moz-box-shadow: 14px 25px 62px 21px rgba(0, 0, 0, 0.8);
     margin-bottom: 50%;
     left: 5rem;
+    img{
+      max-height: 300px;
+      min-width: 100%;
+    }
   }
   .project-card-right {
     top: 50%;
@@ -410,6 +424,7 @@ nav {
   padding-bottom: 2rem;
   background-color: $yellow;
   padding-top: 3rem;
+  margin-top: -0.1rem;
   .team-card {
     display: flex;
     flex-direction: row;
@@ -591,7 +606,7 @@ nav {
 }
 .package-section{
   min-height: 95vh;
-  padding-top: 10vh;
+  padding-top: 5rem;
   text-align: center;
   background-color: $dark;
   color: $light;
@@ -613,11 +628,13 @@ nav {
     // margin: 1rem 0;
     background-color: $yellow;
     color: $dark;
-    padding: 2rem 1rem;
+    margin-right: 1rem;
+    padding: 4rem 1rem;
     border-radius: 1rem;
     opacity: 0.95;
-    text-align: justify;
+    text-align: left;
     margin-bottom: 1rem;
+    position: relative;
     h3{
       text-align: center;
     }
@@ -632,7 +649,10 @@ nav {
         // display: flex;
         font-weight: 500;
         font-size: x-large;
-        margin-left: 1rem;    
+        margin-left: 1rem;
+        position: absolute;
+        padding-bottom: 2rem; 
+        bottom: 0;  
     }
   }
 }
@@ -650,10 +670,10 @@ nav {
 }
 
 //mobile responsive
-@media screen and (min-width: 425px) and (max-width: 768px) {
+@media screen and (min-width: 576px) and (max-width: 1023px) {
   @include tabresp();
 }
-@media screen and (max-width: 426px) {
+@media screen and (max-width: 577px) {
   @include mobileresp();
   // .main .banner-text {
   //   .text {

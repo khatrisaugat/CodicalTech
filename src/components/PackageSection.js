@@ -12,7 +12,7 @@ function PackageSection(props) {
     } else if (props.getData === "PackageThree") {
         data = PackagesData.PackageThree
     }
-    console.log(data);
+    // console.log(data);
     return (
         <div className="package-section">
             <h1>{data.title}</h1>

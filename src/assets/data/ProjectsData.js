@@ -1,31 +1,34 @@
-import LockDesign from '../images/lock-design.png';
+import Notebahadur from "../images/notebahadur.png"
+import Ams from "../images/ams.png"
+import Donut from "../images/0030.png"
+import Menu from "../images/menu.jpg"
 const ProjectsData = [
     {
-        title: "Lock Antivirus",
-        image: LockDesign,
-        description: "A website design that is mordern and looks good.",
+        title: "Notebahadur",
+        image: Notebahadur,
+        description: "A content management system built to help students",
         previewLink: "https://notebahadur.com/",
         gitLink: ""
     },
     {
-        title: "SIS",
-        image: LockDesign,
-        description: "A school management software that is used for billing. It is important for any school",
-        previewLink: "https://notebahadur.com/",
+        title: "AMS",
+        image: Ams,
+        description: "An assignment management system where students can get and submit assignment",
+        previewLink: "https://ams.notebahadur.com/",
         gitLink: ""
     },
     {
-        title: "SIS4",
-        image: LockDesign,
-        description: "A school management software that is used for billing.",
-        previewLink: "https://notebahadur.com/",
+        title: "3D modelling",
+        image: Donut,
+        description: "A 3D model of donut and coffee",
+        previewLink: "https://samarpanrai.com.np/wp-content/uploads/2021/10/0030.png",
         gitLink: ""
     },
     {
-        title: "himalayan",
-        image: LockDesign,
-        description: "A react native application",
-        previewLink: "https://notebahadur.com/",
+        title: "Menu Design",
+        image: Menu,
+        description: "A restaurant menu design",
+        previewLink: "https://samarpanrai.com.np/wp-content/uploads/2021/10/coverpage-scaled.jpg",
         gitLink: ""
     },
 ]

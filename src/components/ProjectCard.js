@@ -2,7 +2,6 @@
 import Button from './Button';
 function ProjectCard(props) {
     const handleClick = (e) => {
-        // asdn
         window.open(props.previewLink);
     }
     return (

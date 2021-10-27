@@ -6,7 +6,7 @@ const PackagesData =
         types: [
             {
                 title: "Basic",
-                price: "Rs. 15,000",
+                price: "Rs. 19,999",
                 features: [
                     {
                         symbol: true,
@@ -18,35 +18,43 @@ const PackagesData =
                     },
                     {
                         symbol: true,
+                        feature: "Revisions: 1"
+                    },
+                    {
+                        symbol: true,
                         feature: "Web Pages: Less than 10"
                     },
                     {
                         symbol: true,
-                        feature: "Social Media"
-                    },
-                    {
-                        symbol: true,
-                        feature: "Image Gallery"
-                    },
-                    {
-                        symbol: true,
-                        feature: "Web Froms: 1"
-                    },
-                    {
-                        symbol: true,
-                        feature: "Support: 1 months Free"
+                        feature: "Web Forms: 1"
                     },
                     {
                         symbol: true,
                         feature: "Banner Slider"
                     },
                     {
+                        symbol: true,
+                        feature: "Embedded video"
+                    },
+                    {
+                        symbol: true,
+                        feature: "Social Media"
+                    },
+                    {
                         symbol: false,
-                        feature: "Logo Design"
+                        feature: "Image Gallery"
                     },
                     {
                         symbol: false,
                         feature: "Video Gallery"
+                    },
+                    {
+                        symbol: false,
+                        feature: "Logo Design"
+                    },
+                    {
+                        symbol: true,
+                        feature: "Support: 1 months Free"
                     },
                     {
                         symbol: false,
@@ -55,12 +63,16 @@ const PackagesData =
                     {
                         symbol: false,
                         feature: "Domain"
+                    },
+                    {
+                        symbol: false,
+                        feature: "Additional pages"
                     },
                 ]
             },
             {
                 title: "Standard",
-                price: "Rs. 20,000",
+                price: "Rs. 24,999",
                 features: [
                     {
                         symbol: true,
@@ -72,7 +84,23 @@ const PackagesData =
                     },
                     {
                         symbol: true,
-                        feature: "Web Pages: Less than 10"
+                        feature: "Revisions: 2"
+                    },
+                    {
+                        symbol: true,
+                        feature: "Web Pages: Less than 15"
+                    },
+                    {
+                        symbol: true,
+                        feature: "Web Forms: 2"
+                    },
+                    {
+                        symbol: true,
+                        feature: "Banner Slider"
+                    },
+                    {
+                        symbol: true,
+                        feature: "Embedded video"
                     },
                     {
                         symbol: true,
@@ -83,42 +111,38 @@ const PackagesData =
                         feature: "Image Gallery"
                     },
                     {
-                        symbol: true,
-                        feature: "Web Froms: 1"
-                    },
-                    {
-                        symbol: true,
-                        feature: "Support: 1 months Free"
-                    },
-                    {
-                        symbol: true,
-                        feature: "Banner Slider"
-                    },
-                    {
                         symbol: false,
+                        feature: "Video Gallery"
+                    },
+                    {
+                        symbol: true,
                         feature: "Logo Design"
                     },
                     {
-                        symbol: false,
-                        feature: "Video Gallery"
+                        symbol: true,
+                        feature: "Support: 3 months Free"
                     },
                     {
                         symbol: false,
                         feature: "Hosting"
                     },
                     {
-                        symbol: false,
+                        symbol: true,
                         feature: "Domain"
+                    },
+                    {
+                        symbol: false,
+                        feature: "Additional pages"
                     },
                 ]
             },
             {
                 title: "Advanced",
-                price: "Rs. 25,000",
+                price: "Rs. 34,999",
                 features: [
                     {
                         symbol: true,
-                        feature: "Web Design from Templates"
+                        feature: "Custom Design"
                     },
                     {
                         symbol: true,
@@ -126,7 +150,23 @@ const PackagesData =
                     },
                     {
                         symbol: true,
-                        feature: "Web Pages: Less than 10"
+                        feature: "Revisions: 3"
+                    },
+                    {
+                        symbol: true,
+                        feature: "Web Pages: 20"
+                    },
+                    {
+                        symbol: true,
+                        feature: "Web Forms: more than 2"
+                    },
+                    {
+                        symbol: true,
+                        feature: "Banner Slider"
+                    },
+                    {
+                        symbol: true,
+                        feature: "Embedded video"
                     },
                     {
                         symbol: true,
@@ -138,31 +178,27 @@ const PackagesData =
                     },
                     {
                         symbol: true,
-                        feature: "Web Froms: 1"
-                    },
-                    {
-                        symbol: true,
-                        feature: "Support: 1 months Free"
-                    },
-                    {
-                        symbol: true,
-                        feature: "Banner Slider"
-                    },
-                    {
-                        symbol: false,
-                        feature: "Logo Design"
-                    },
-                    {
-                        symbol: false,
                         feature: "Video Gallery"
                     },
                     {
-                        symbol: false,
+                        symbol: true,
+                        feature: "Logo Design: revisions 2x"
+                    },
+                    {
+                        symbol: true,
+                        feature: "Support: 6 months Free"
+                    },
+                    {
+                        symbol: true,
                         feature: "Hosting"
                     },
                     {
-                        symbol: false,
+                        symbol: true,
                         feature: "Domain"
+                    },
+                    {
+                        symbol: true,
+                        feature: "Additional pages: upto 5"
                     },
                 ]
             }
@@ -173,12 +209,32 @@ const PackagesData =
         description: "A web app with required functionality",
         types: [
             {
-                title: "Basic",
-                price: "Rs. 15,000",
+                title: "Content Management System",
+                price: "From Rs. 24,999",
                 features: [
                     {
                         symbol: true,
-                        feature: "Web Design from Templates"
+                        feature: "Design"
+                    },
+                    {
+                        symbol: true,
+                        feature: "Support"
+                    },
+                    {
+                        symbol: true,
+                        feature: "SEO Setup"
+                    },
+                    {
+                        symbol: true,
+                        feature: "Google Analytics Setup"
+                    },
+                    {
+                        symbol: true,
+                        feature: "Domain"
+                    },
+                    {
+                        symbol: true,
+                        feature: "Hosting"
                     },
                     {
                         symbol: true,
@@ -186,27 +242,7 @@ const PackagesData =
                     },
                     {
                         symbol: true,
-                        feature: "Web Pages: Less than 10"
-                    },
-                    {
-                        symbol: true,
                         feature: "Social Media"
-                    },
-                    {
-                        symbol: true,
-                        feature: "Image Gallery"
-                    },
-                    {
-                        symbol: true,
-                        feature: "Web Froms: 1"
-                    },
-                    {
-                        symbol: true,
-                        feature: "Support: 1 months Free"
-                    },
-                    {
-                        symbol: true,
-                        feature: "Banner Slider"
                     },
                     {
                         symbol: false,
@@ -214,293 +250,181 @@ const PackagesData =
                     },
                     {
                         symbol: false,
-                        feature: "Video Gallery"
+                        feature: "Cover for Social Media"
                     },
                     {
                         symbol: false,
-                        feature: "Hosting"
+                        feature: "Custom Ad Design"
                     },
                     {
                         symbol: false,
-                        feature: "Domain"
+                        feature: "Product Marketing"
+                    },
+                    {
+                        symbol: false,
+                        feature: "Assistance"
+                    },
+                    {
+                        symbol: false,
+                        feature: "AMP"
+                    },
+                    {
+                        symbol: false,
+                        feature: "Live Messenger Chat"
+                    },
+                    {
+                        symbol: false,
+                        feature: "Multi-language translate "
+                    },
+                    {
+                        symbol: false,
+                        feature: "APIs"
                     },
                 ]
             },
             {
-                title: "Standard",
-                price: "Rs. 20,000",
+                title: "Institute Management System",
+                price: "From Rs. 39,999",
                 features: [
                     {
                         symbol: true,
-                        feature: "Web Design from Templates"
+                        feature: "User Registration and Login"
                     },
                     {
                         symbol: true,
-                        feature: "Responsiveness"
+                        feature: "Backend"
                     },
                     {
                         symbol: true,
-                        feature: "Web Pages: Less than 10"
+                        feature: "Frontend"
                     },
                     {
                         symbol: true,
-                        feature: "Social Media"
+                        feature: "Designs witih Revision"
                     },
                     {
                         symbol: true,
-                        feature: "Image Gallery"
-                    },
-                    {
-                        symbol: true,
-                        feature: "Web Froms: 1"
-                    },
-                    {
-                        symbol: true,
-                        feature: "Support: 1 months Free"
-                    },
-                    {
-                        symbol: true,
-                        feature: "Banner Slider"
-                    },
-                    {
-                        symbol: false,
                         feature: "Logo Design"
-                    },
-                    {
-                        symbol: false,
-                        feature: "Video Gallery"
-                    },
-                    {
-                        symbol: false,
-                        feature: "Hosting"
-                    },
-                    {
-                        symbol: false,
-                        feature: "Domain"
-                    },
+                    }
                 ]
             },
             {
-                title: "Advanced",
-                price: "Rs. 25,000",
+                title: "Customized Webapp",
+                price: "From Rs. 49,999",
                 features: [
                     {
                         symbol: true,
-                        feature: "Web Design from Templates"
+                        feature: "User Registration an login"
                     },
                     {
                         symbol: true,
-                        feature: "Responsiveness"
+                        feature: "Backend"
                     },
                     {
                         symbol: true,
-                        feature: "Web Pages: Less than 10"
+                        feature: "Frontend"
                     },
                     {
                         symbol: true,
-                        feature: "Social Media"
+                        feature: "Design and revisions"
                     },
                     {
                         symbol: true,
-                        feature: "Image Gallery"
+                        feature: "Designs and ads"
                     },
                     {
                         symbol: true,
-                        feature: "Web Froms: 1"
-                    },
-                    {
-                        symbol: true,
-                        feature: "Support: 1 months Free"
-                    },
-                    {
-                        symbol: true,
-                        feature: "Banner Slider"
-                    },
-                    {
-                        symbol: false,
-                        feature: "Logo Design"
-                    },
-                    {
-                        symbol: false,
-                        feature: "Video Gallery"
-                    },
-                    {
-                        symbol: false,
-                        feature: "Hosting"
-                    },
-                    {
-                        symbol: false,
-                        feature: "Domain"
-                    },
+                        feature: "other functionalities as need"
+                    }
                 ]
             }
         ]
 
     },
     PackageThree: {
-        title: "Application Package",
-        description: "A simple website",
+        title: "Graphics Package",
+        description: "Package for graphics",
         types: [
             {
-                title: "Basic",
+                title: "Graphics Design",
                 price: "Rs. 15,000",
                 features: [
                     {
                         symbol: true,
-                        feature: "Web Design from Templates"
+                        feature: "Social Media Posts"
                     },
                     {
                         symbol: true,
-                        feature: "Responsiveness"
+                        feature: "Flex Banners"
                     },
                     {
                         symbol: true,
-                        feature: "Web Pages: Less than 10"
-                    },
-                    {
-                        symbol: true,
-                        feature: "Social Media"
-                    },
-                    {
-                        symbol: true,
-                        feature: "Image Gallery"
-                    },
-                    {
-                        symbol: true,
-                        feature: "Web Froms: 1"
-                    },
-                    {
-                        symbol: true,
-                        feature: "Support: 1 months Free"
-                    },
-                    {
-                        symbol: true,
-                        feature: "Banner Slider"
-                    },
-                    {
-                        symbol: false,
-                        feature: "Logo Design"
-                    },
-                    {
-                        symbol: false,
-                        feature: "Video Gallery"
-                    },
-                    {
-                        symbol: false,
-                        feature: "Hosting"
-                    },
-                    {
-                        symbol: false,
-                        feature: "Domain"
-                    },
+                        feature: "Print Designs"
+                    }
                 ]
             },
             {
-                title: "Standard",
-                price: "Rs. 20,000",
+                title: "Motion Design",
+                price: "Rs. 50,000",
                 features: [
                     {
                         symbol: true,
-                        feature: "Web Design from Templates"
+                        feature: "Design for Advertisements"
                     },
                     {
                         symbol: true,
-                        feature: "Responsiveness"
-                    },
-                    {
-                        symbol: true,
-                        feature: "Web Pages: Less than 10"
-                    },
-                    {
-                        symbol: true,
-                        feature: "Social Media"
-                    },
-                    {
-                        symbol: true,
-                        feature: "Image Gallery"
-                    },
-                    {
-                        symbol: true,
-                        feature: "Web Froms: 1"
-                    },
-                    {
-                        symbol: true,
-                        feature: "Support: 1 months Free"
-                    },
-                    {
-                        symbol: true,
-                        feature: "Banner Slider"
-                    },
-                    {
-                        symbol: false,
-                        feature: "Logo Design"
-                    },
-                    {
-                        symbol: false,
-                        feature: "Video Gallery"
-                    },
-                    {
-                        symbol: false,
-                        feature: "Hosting"
-                    },
-                    {
-                        symbol: false,
-                        feature: "Domain"
-                    },
+                        feature: "Information with Motion Presentation"
+                    }
                 ]
             },
             {
-                title: "Advanced",
+                title: "Video Editing",
                 price: "Rs. 25,000",
                 features: [
                     {
                         symbol: true,
-                        feature: "Web Design from Templates"
+                        feature: "Editting Footage File to fill Life"
+                    }
+                ]
+            },
+            {
+                title: "Web Banner",
+                price: "Rs. 10,000",
+                features: [
+                    {
+                        symbol: true,
+                        feature: "Feature Image"
                     },
                     {
                         symbol: true,
-                        feature: "Responsiveness"
+                        feature: "Banner Image"
+                    }
+                ]
+            }
+            ,
+            {
+                title: "Logo Design",
+                price: "Rs. 5,000",
+                features: [
+                    {
+                        symbol: true,
+                        feature: "Proper Logo for Bran"
                     },
                     {
                         symbol: true,
-                        feature: "Web Pages: Less than 10"
-                    },
+                        feature: "Banner Image"
+                    }
+                ]
+            }
+            ,
+            {
+                title: "Web Design",
+                price: "Rs. 15,000",
+                features: [
                     {
                         symbol: true,
-                        feature: "Social Media"
-                    },
-                    {
-                        symbol: true,
-                        feature: "Image Gallery"
-                    },
-                    {
-                        symbol: true,
-                        feature: "Web Froms: 1"
-                    },
-                    {
-                        symbol: true,
-                        feature: "Support: 1 months Free"
-                    },
-                    {
-                        symbol: true,
-                        feature: "Banner Slider"
-                    },
-                    {
-                        symbol: false,
-                        feature: "Logo Design"
-                    },
-                    {
-                        symbol: false,
-                        feature: "Video Gallery"
-                    },
-                    {
-                        symbol: false,
-                        feature: "Hosting"
-                    },
-                    {
-                        symbol: false,
-                        feature: "Domain"
-                    },
+                        feature: "UI Design"
+                    }
                 ]
             }
         ]

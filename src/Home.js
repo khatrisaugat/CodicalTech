@@ -16,7 +16,7 @@ function Home() {
                 <Route path="/packages/webapp">
                     <Packages getData="PackageTwo" />
                 </Route>
-                <Route path="/packages/mobileapp">
+                <Route path="/packages/graphics">
                     <Packages getData="PackageThree" />
                 </Route>
                 <Route path="/">
